@@ -27,51 +27,171 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="MagicDmg" min="-2" pref="70" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="Mag2" min="-2" pref="75" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="Atk1" min="-2" pref="75" max="-2" attributes="0"/>
+                                          <Component id="AtkStat_col" min="-2" pref="70" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="d20_1" min="-2" pref="75" max="-2" attributes="0"/>
+                                          <Component id="d20_check" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="DefStat_col" min="-2" pref="70" max="-2" attributes="0"/>
+                                          <Component id="Def1" min="-2" pref="75" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="AttackDmg" alignment="0" min="-2" pref="70" max="-2" attributes="0"/>
+                              </Group>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="d20_2" min="-2" pref="75" max="-2" attributes="0"/>
+                              <Component id="Calc1" min="-2" pref="70" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="Spr2" min="-2" pref="75" max="-2" attributes="0"/>
+                              <Component id="Result1" min="-2" pref="45" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
+                              <Component id="AttackDmg2" min="-2" pref="70" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Atk2" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <Component id="d20_2" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Def2" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Calc2" min="-2" pref="70" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Result2" min="-2" pref="45" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="AttackDmg4" min="-2" pref="70" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Atk4" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <Component id="d20_4" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Def4" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Calc4" min="-2" pref="70" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Result4" min="-2" pref="45" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="MagicDmg1" min="-2" pref="70" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Mag7" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="d20_7" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Spr7" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Calc7" min="-2" pref="70" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Result7" min="-2" pref="45" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="MagicDmg2" min="-2" pref="70" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Mag8" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="d20_8" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Spr8" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Calc8" min="-2" pref="70" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Result8" min="-2" pref="45" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="Atk1" min="-2" pref="75" max="-2" attributes="0"/>
-                                  <Component id="AtkStat_col" min="-2" pref="70" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="MagicDmg3" min="-2" pref="70" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="Mag9" min="-2" pref="75" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="MagicDmg4" min="-2" pref="70" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="Mag10" min="-2" pref="75" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="d20_1" min="-2" pref="75" max="-2" attributes="0"/>
-                                  <Component id="d20_check" min="-2" max="-2" attributes="0"/>
+                                  <Component id="d20_9" alignment="0" min="-2" pref="75" max="-2" attributes="0"/>
+                                  <Component id="d20_10" alignment="0" min="-2" pref="75" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="DefStat_col" min="-2" pref="70" max="-2" attributes="0"/>
-                                  <Component id="Def1" min="-2" pref="75" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="Spr9" min="-2" pref="75" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="Calc9" min="-2" pref="70" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="Result9" min="-2" pref="45" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="Spr10" min="-2" pref="75" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="Calc10" min="-2" pref="70" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="Result10" min="-2" pref="45" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
                           </Group>
                       </Group>
-                  </Group>
-                  <Component id="AttackDmg" alignment="0" min="-2" pref="70" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Component id="Calc1" min="-2" pref="70" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="Result1" min="-2" pref="45" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="189" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
-                      <Component id="Calc2" min="-2" pref="70" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="Result2" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="MagicDmg" min="-2" pref="70" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Mag6" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="d20_6" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Spr6" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Calc6" min="-2" pref="70" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Result6" min="-2" pref="45" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="AttackDmg5" min="-2" pref="70" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Atk5" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <Component id="d20_5" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Def5" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Calc5" min="-2" pref="70" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Result5" min="-2" pref="45" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="AttackDmg3" min="-2" pref="70" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Atk3" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <Component id="d20_3" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Def3" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Calc3" min="-2" pref="70" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Result3" min="-2" pref="45" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
           </Group>
@@ -93,24 +213,114 @@
                       <Component id="Atk1" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="d20_1" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="Def1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Result1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Calc1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="AttackDmg2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Def2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="d20_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Atk2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="Result2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Calc2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="AttackDmg3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Def3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="d20_3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Atk3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="Result3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Calc3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="AttackDmg4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Atk4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="Result4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Calc4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Def4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="d20_4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="AttackDmg5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Def5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="d20_5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Atk5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="Result5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Calc5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Spr6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Result6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Calc6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Mag6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MagicDmg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="d20_6" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Spr7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Result7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Calc7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Mag7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MagicDmg1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="d20_7" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Spr8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Result8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Calc8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Mag8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MagicDmg2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="d20_8" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="Def1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="Result1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="Calc1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Spr9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Result9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Calc9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Mag9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="MagicDmg3" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="Spr2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="Result2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="d20_2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="Calc2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="Mag2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="MagicDmg" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Spr10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Result10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Calc10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Mag10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="MagicDmg4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="d20_10" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
+                  <Component id="d20_9" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace pref="13" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -140,12 +350,12 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Calc1ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="Mag2">
+    <Component class="javax.swing.JTextField" name="Mag6">
       <Properties>
         <Property name="text" type="java.lang.String" value="Unit Mag"/>
       </Properties>
       <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Mag2MouseClicked"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Mag6MouseClicked"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="Def1">
@@ -159,12 +369,12 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Def1MouseClicked"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="Spr2">
+    <Component class="javax.swing.JTextField" name="Spr6">
       <Properties>
         <Property name="text" type="java.lang.String" value="Enemy Spr"/>
       </Properties>
       <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Spr2MouseClicked"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Spr6MouseClicked"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="AttackDmg">
@@ -177,7 +387,7 @@
         <Property name="text" type="java.lang.String" value="Magic Dmg"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="Result2">
+    <Component class="javax.swing.JLabel" name="Result6">
       <Properties>
         <Property name="text" type="java.lang.String" value="Result"/>
       </Properties>
@@ -214,6 +424,24 @@
         <Property name="text" type="java.lang.String" value="Def Stat"/>
       </Properties>
     </Component>
+    <Component class="javax.swing.JButton" name="Calc6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calc"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Calc6ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="d20_check">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Auto Roll"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Result2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Result"/>
+      </Properties>
+    </Component>
     <Component class="javax.swing.JButton" name="Calc2">
       <Properties>
         <Property name="text" type="java.lang.String" value="Calc"/>
@@ -222,10 +450,376 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Calc2ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JCheckBox" name="d20_check">
+    <Component class="javax.swing.JTextField" name="Def3">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Auto Roll"/>
+        <Property name="text" type="java.lang.String" value="Enemy Def"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Text Cursor"/>
+        </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Def3MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="d20_4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="d20"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Text Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="d20_4MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Atk3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unit Atk"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Text Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Atk3MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="AttackDmg2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Attack Dmg"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Result3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Result"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Calc3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calc"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Calc3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Def4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enemy Def"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Text Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Def4MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="d20_5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="d20"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Text Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="d20_5MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Atk4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unit Atk"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Text Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Atk4MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="AttackDmg3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Attack Dmg"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Result4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Result"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Calc4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calc"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Calc4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Def5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enemy Def"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Text Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Def5MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="d20_6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="d20"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Text Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="d20_6MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Atk5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unit Atk"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Text Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Atk5MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="AttackDmg4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Attack Dmg"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Result5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Result"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Calc5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calc"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Calc5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="d20_7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="d20"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Text Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="d20_7MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Atk2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unit Atk"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Text Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Atk2MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="AttackDmg5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Attack Dmg"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Result7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Result"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Calc7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calc"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Calc7ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Spr7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enemy Spr"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Spr7MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="d20_9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="d20"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Text Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="d20_9MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Mag7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unit Mag"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Mag7MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MagicDmg1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Magic Dmg"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Result8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Result"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Calc8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calc"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Calc8ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Spr8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enemy Spr"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Spr8MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="d20_10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="d20"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Text Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="d20_10MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Mag8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unit Mag"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Mag8MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MagicDmg2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Magic Dmg"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Result9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Result"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Calc9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calc"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Calc9ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Spr9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enemy Spr"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Spr9MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="d20_3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="d20"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Text Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="d20_3MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Mag9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unit Mag"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Mag9MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MagicDmg3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Magic Dmg"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Result10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Result"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Calc10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calc"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Calc10ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Spr10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enemy Spr"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Spr10MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="d20_8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="d20"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Text Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="d20_8MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Mag10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unit Mag"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Mag10MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MagicDmg4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Magic Dmg"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Def2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enemy Def"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Text Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Def2MouseClicked"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>

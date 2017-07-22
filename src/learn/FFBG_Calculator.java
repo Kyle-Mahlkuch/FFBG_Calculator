@@ -66,18 +66,66 @@ public class FFBG_Calculator extends javax.swing.JFrame {
         Atk1 = new javax.swing.JTextField();
         Result1 = new javax.swing.JLabel();
         Calc1 = new javax.swing.JButton();
-        Mag2 = new javax.swing.JTextField();
+        Mag6 = new javax.swing.JTextField();
         Def1 = new javax.swing.JTextField();
-        Spr2 = new javax.swing.JTextField();
+        Spr6 = new javax.swing.JTextField();
         AttackDmg = new javax.swing.JLabel();
         MagicDmg = new javax.swing.JLabel();
-        Result2 = new javax.swing.JLabel();
+        Result6 = new javax.swing.JLabel();
         d20_1 = new javax.swing.JTextField();
         d20_2 = new javax.swing.JTextField();
         AtkStat_col = new javax.swing.JLabel();
         DefStat_col = new javax.swing.JLabel();
-        Calc2 = new javax.swing.JButton();
+        Calc6 = new javax.swing.JButton();
         d20_check = new javax.swing.JCheckBox();
+        Result2 = new javax.swing.JLabel();
+        Calc2 = new javax.swing.JButton();
+        Def3 = new javax.swing.JTextField();
+        d20_4 = new javax.swing.JTextField();
+        Atk3 = new javax.swing.JTextField();
+        AttackDmg2 = new javax.swing.JLabel();
+        Result3 = new javax.swing.JLabel();
+        Calc3 = new javax.swing.JButton();
+        Def4 = new javax.swing.JTextField();
+        d20_5 = new javax.swing.JTextField();
+        Atk4 = new javax.swing.JTextField();
+        AttackDmg3 = new javax.swing.JLabel();
+        Result4 = new javax.swing.JLabel();
+        Calc4 = new javax.swing.JButton();
+        Def5 = new javax.swing.JTextField();
+        d20_6 = new javax.swing.JTextField();
+        Atk5 = new javax.swing.JTextField();
+        AttackDmg4 = new javax.swing.JLabel();
+        Result5 = new javax.swing.JLabel();
+        Calc5 = new javax.swing.JButton();
+        d20_7 = new javax.swing.JTextField();
+        Atk2 = new javax.swing.JTextField();
+        AttackDmg5 = new javax.swing.JLabel();
+        Result7 = new javax.swing.JLabel();
+        Calc7 = new javax.swing.JButton();
+        Spr7 = new javax.swing.JTextField();
+        d20_9 = new javax.swing.JTextField();
+        Mag7 = new javax.swing.JTextField();
+        MagicDmg1 = new javax.swing.JLabel();
+        Result8 = new javax.swing.JLabel();
+        Calc8 = new javax.swing.JButton();
+        Spr8 = new javax.swing.JTextField();
+        d20_10 = new javax.swing.JTextField();
+        Mag8 = new javax.swing.JTextField();
+        MagicDmg2 = new javax.swing.JLabel();
+        Result9 = new javax.swing.JLabel();
+        Calc9 = new javax.swing.JButton();
+        Spr9 = new javax.swing.JTextField();
+        d20_3 = new javax.swing.JTextField();
+        Mag9 = new javax.swing.JTextField();
+        MagicDmg3 = new javax.swing.JLabel();
+        Result10 = new javax.swing.JLabel();
+        Calc10 = new javax.swing.JButton();
+        Spr10 = new javax.swing.JTextField();
+        d20_8 = new javax.swing.JTextField();
+        Mag10 = new javax.swing.JTextField();
+        MagicDmg4 = new javax.swing.JLabel();
+        Def2 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Celcius Converter");
@@ -100,10 +148,10 @@ public class FFBG_Calculator extends javax.swing.JFrame {
             }
         });
 
-        Mag2.setText("Unit Mag");
-        Mag2.addMouseListener(new java.awt.event.MouseAdapter() {
+        Mag6.setText("Unit Mag");
+        Mag6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                Mag2MouseClicked(evt);
+                Mag6MouseClicked(evt);
             }
         });
 
@@ -115,10 +163,10 @@ public class FFBG_Calculator extends javax.swing.JFrame {
             }
         });
 
-        Spr2.setText("Enemy Spr");
-        Spr2.addMouseListener(new java.awt.event.MouseAdapter() {
+        Spr6.setText("Enemy Spr");
+        Spr6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                Spr2MouseClicked(evt);
+                Spr6MouseClicked(evt);
             }
         });
 
@@ -126,7 +174,7 @@ public class FFBG_Calculator extends javax.swing.JFrame {
 
         MagicDmg.setText("Magic Dmg");
 
-        Result2.setText("Result");
+        Result6.setText("Result");
 
         d20_1.setText("d20");
         d20_1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
@@ -148,6 +196,17 @@ public class FFBG_Calculator extends javax.swing.JFrame {
 
         DefStat_col.setText("Def Stat");
 
+        Calc6.setText("Calc");
+        Calc6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Calc6ActionPerformed(evt);
+            }
+        });
+
+        d20_check.setText("Auto Roll");
+
+        Result2.setText("Result");
+
         Calc2.setText("Calc");
         Calc2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -155,48 +214,414 @@ public class FFBG_Calculator extends javax.swing.JFrame {
             }
         });
 
-        d20_check.setText("Auto Roll");
+        Def3.setText("Enemy Def");
+        Def3.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        Def3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Def3MouseClicked(evt);
+            }
+        });
+
+        d20_4.setText("d20");
+        d20_4.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        d20_4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                d20_4MouseClicked(evt);
+            }
+        });
+
+        Atk3.setText("Unit Atk");
+        Atk3.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        Atk3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Atk3MouseClicked(evt);
+            }
+        });
+
+        AttackDmg2.setText("Attack Dmg");
+
+        Result3.setText("Result");
+
+        Calc3.setText("Calc");
+        Calc3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Calc3ActionPerformed(evt);
+            }
+        });
+
+        Def4.setText("Enemy Def");
+        Def4.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        Def4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Def4MouseClicked(evt);
+            }
+        });
+
+        d20_5.setText("d20");
+        d20_5.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        d20_5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                d20_5MouseClicked(evt);
+            }
+        });
+
+        Atk4.setText("Unit Atk");
+        Atk4.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        Atk4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Atk4MouseClicked(evt);
+            }
+        });
+
+        AttackDmg3.setText("Attack Dmg");
+
+        Result4.setText("Result");
+
+        Calc4.setText("Calc");
+        Calc4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Calc4ActionPerformed(evt);
+            }
+        });
+
+        Def5.setText("Enemy Def");
+        Def5.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        Def5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Def5MouseClicked(evt);
+            }
+        });
+
+        d20_6.setText("d20");
+        d20_6.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        d20_6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                d20_6MouseClicked(evt);
+            }
+        });
+
+        Atk5.setText("Unit Atk");
+        Atk5.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        Atk5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Atk5MouseClicked(evt);
+            }
+        });
+
+        AttackDmg4.setText("Attack Dmg");
+
+        Result5.setText("Result");
+
+        Calc5.setText("Calc");
+        Calc5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Calc5ActionPerformed(evt);
+            }
+        });
+
+        d20_7.setText("d20");
+        d20_7.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        d20_7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                d20_7MouseClicked(evt);
+            }
+        });
+
+        Atk2.setText("Unit Atk");
+        Atk2.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        Atk2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Atk2MouseClicked(evt);
+            }
+        });
+
+        AttackDmg5.setText("Attack Dmg");
+
+        Result7.setText("Result");
+
+        Calc7.setText("Calc");
+        Calc7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Calc7ActionPerformed(evt);
+            }
+        });
+
+        Spr7.setText("Enemy Spr");
+        Spr7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Spr7MouseClicked(evt);
+            }
+        });
+
+        d20_9.setText("d20");
+        d20_9.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        d20_9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                d20_9MouseClicked(evt);
+            }
+        });
+
+        Mag7.setText("Unit Mag");
+        Mag7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Mag7MouseClicked(evt);
+            }
+        });
+
+        MagicDmg1.setText("Magic Dmg");
+
+        Result8.setText("Result");
+
+        Calc8.setText("Calc");
+        Calc8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Calc8ActionPerformed(evt);
+            }
+        });
+
+        Spr8.setText("Enemy Spr");
+        Spr8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Spr8MouseClicked(evt);
+            }
+        });
+
+        d20_10.setText("d20");
+        d20_10.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        d20_10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                d20_10MouseClicked(evt);
+            }
+        });
+
+        Mag8.setText("Unit Mag");
+        Mag8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Mag8MouseClicked(evt);
+            }
+        });
+
+        MagicDmg2.setText("Magic Dmg");
+
+        Result9.setText("Result");
+
+        Calc9.setText("Calc");
+        Calc9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Calc9ActionPerformed(evt);
+            }
+        });
+
+        Spr9.setText("Enemy Spr");
+        Spr9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Spr9MouseClicked(evt);
+            }
+        });
+
+        d20_3.setText("d20");
+        d20_3.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        d20_3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                d20_3MouseClicked(evt);
+            }
+        });
+
+        Mag9.setText("Unit Mag");
+        Mag9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Mag9MouseClicked(evt);
+            }
+        });
+
+        MagicDmg3.setText("Magic Dmg");
+
+        Result10.setText("Result");
+
+        Calc10.setText("Calc");
+        Calc10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Calc10ActionPerformed(evt);
+            }
+        });
+
+        Spr10.setText("Enemy Spr");
+        Spr10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Spr10MouseClicked(evt);
+            }
+        });
+
+        d20_8.setText("d20");
+        d20_8.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        d20_8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                d20_8MouseClicked(evt);
+            }
+        });
+
+        Mag10.setText("Unit Mag");
+        Mag10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Mag10MouseClicked(evt);
+            }
+        });
+
+        MagicDmg4.setText("Magic Dmg");
+
+        Def2.setText("Enemy Def");
+        Def2.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        Def2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Def2MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(MagicDmg, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(Mag2, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(76, 76, 76)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(Atk1, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(AtkStat_col, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(d20_1, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(d20_check))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(DefStat_col, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(Def1, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(AttackDmg, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Calc1, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Result1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(AttackDmg2, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Atk2, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(8, 8, 8)
                                 .addComponent(d20_2, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Spr2, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(Def2, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Calc2, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Result2, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(AttackDmg4, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Atk4, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(8, 8, 8)
+                                .addComponent(d20_4, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Def4, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Calc4, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Result4, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(MagicDmg1, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Mag7, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(d20_7, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Spr7, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Calc7, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Result7, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(MagicDmg2, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Mag8, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(d20_8, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Spr8, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Calc8, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Result8, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(Atk1, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(AtkStat_col, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(MagicDmg3, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(Mag9, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(MagicDmg4, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(Mag10, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(d20_1, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(d20_check))
+                                    .addComponent(d20_9, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(d20_10, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(DefStat_col, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Def1, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                    .addComponent(AttackDmg, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(Spr9, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(Calc9, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(Result9, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(Spr10, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(Calc10, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(Result10, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                        .addGap(0, 189, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(Calc1, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Result1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(Calc2, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Result2, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(MagicDmg, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Mag6, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(d20_6, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Spr6, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Calc6, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Result6, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(AttackDmg5, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Atk5, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(8, 8, 8)
+                                .addComponent(d20_5, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Def5, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Calc5, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Result5, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(AttackDmg3, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Atk3, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(8, 8, 8)
+                                .addComponent(d20_3, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Def3, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Calc3, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Result3, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -212,20 +637,93 @@ public class FFBG_Calculator extends javax.swing.JFrame {
                         .addComponent(AttackDmg)
                         .addComponent(Atk1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(d20_1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(Def1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(Result1)
+                        .addComponent(Calc1)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(AttackDmg2)
+                        .addComponent(Def2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(d20_2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(Atk2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(Result2)
+                        .addComponent(Calc2)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(AttackDmg3)
+                        .addComponent(Def3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(d20_3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(Atk3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(Result3)
+                        .addComponent(Calc3)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(AttackDmg4)
+                        .addComponent(Atk4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(Result4)
+                        .addComponent(Calc4)
+                        .addComponent(Def4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(d20_4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(AttackDmg5)
+                        .addComponent(Def5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(d20_5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(Atk5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(Result5)
+                        .addComponent(Calc5)))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Spr6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Result6)
+                    .addComponent(Calc6)
+                    .addComponent(Mag6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(MagicDmg)
+                    .addComponent(d20_6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Spr7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Result7)
+                    .addComponent(Calc7)
+                    .addComponent(Mag7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(MagicDmg1)
+                    .addComponent(d20_7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Spr8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Result8)
+                    .addComponent(Calc8)
+                    .addComponent(Mag8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(MagicDmg2)
+                    .addComponent(d20_8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(Def1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Result1)
-                            .addComponent(Calc1))
+                            .addComponent(Spr9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Result9)
+                            .addComponent(Calc9)
+                            .addComponent(Mag9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(MagicDmg3))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(Spr2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Result2)
-                            .addComponent(d20_2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Calc2)
-                            .addComponent(Mag2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(MagicDmg))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(Spr10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Result10)
+                            .addComponent(Calc10)
+                            .addComponent(Mag10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(MagicDmg4)
+                            .addComponent(d20_10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(d20_9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(13, Short.MAX_VALUE))
         );
 
         pack();
@@ -261,19 +759,19 @@ public class FFBG_Calculator extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_Atk1MouseClicked
 
-    private void Mag2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Mag2MouseClicked
-        String text = Mag2.getText();
+    private void Mag6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Mag6MouseClicked
+        String text = Mag6.getText();
         if (text.equals("Unit Mag")) {
-            Mag2.setText("");
+            Mag6.setText("");
         }
-    }//GEN-LAST:event_Mag2MouseClicked
+    }//GEN-LAST:event_Mag6MouseClicked
 
-    private void Spr2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Spr2MouseClicked
-        String text = Spr2.getText();
+    private void Spr6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Spr6MouseClicked
+        String text = Spr6.getText();
         if (text.equals("Enemy Spr")) {
-            Spr2.setText("");
+            Spr6.setText("");
         }
-    }//GEN-LAST:event_Spr2MouseClicked
+    }//GEN-LAST:event_Spr6MouseClicked
 
     private void d20_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_d20_1MouseClicked
         String text = d20_1.getText();
@@ -289,8 +787,24 @@ public class FFBG_Calculator extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_d20_2MouseClicked
 
+    private void Calc6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Calc6ActionPerformed
+        int ret[] = roll_Atk(Mag6, d20_6, Spr6);
+        int damage = ret[0];
+        int d20 = ret[1];
+        
+        if (damage != -1) {
+            Result6.setText(String.valueOf(damage));
+        } else {
+            Result6.setText("Error");
+        }
+        
+        if (d20_check.isSelected()) {
+            d20_6.setText(String.valueOf(d20));
+        }    
+    }//GEN-LAST:event_Calc6ActionPerformed
+
     private void Calc2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Calc2ActionPerformed
-        int ret[] = roll_Atk(Mag2, d20_2, Spr2);
+        int ret[] = roll_Atk(Atk2, d20_2, Def2);
         int damage = ret[0];
         int d20 = ret[1];
         
@@ -302,8 +816,288 @@ public class FFBG_Calculator extends javax.swing.JFrame {
         
         if (d20_check.isSelected()) {
             d20_2.setText(String.valueOf(d20));
-        }    
+        }
     }//GEN-LAST:event_Calc2ActionPerformed
+
+    private void Def3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Def3MouseClicked
+        String text = Def3.getText();
+        if (text.equals("Enemy Def")) {
+            Def3.setText("");
+        }
+    }//GEN-LAST:event_Def3MouseClicked
+
+    private void d20_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_d20_4MouseClicked
+        String text = d20_4.getText();
+        if (text.equals("d20")) {
+            d20_4.setText("");
+        }
+    }//GEN-LAST:event_d20_4MouseClicked
+
+    private void Atk3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Atk3MouseClicked
+        String text = Atk3.getText();
+        if (text.equals("Unit Atk")) {
+            Atk3.setText("");
+        }
+    }//GEN-LAST:event_Atk3MouseClicked
+
+    private void Calc3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Calc3ActionPerformed
+        int ret[] = roll_Atk(Atk3, d20_3, Def3);
+        int damage = ret[0];
+        int d20 = ret[1];
+        
+        if (damage != -1) {
+            Result3.setText(String.valueOf(damage));
+        } else {
+            Result3.setText("Error");
+        }
+        
+        if (d20_check.isSelected()) {
+            d20_3.setText(String.valueOf(d20));
+        }
+    }//GEN-LAST:event_Calc3ActionPerformed
+
+    private void Def4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Def4MouseClicked
+        String text = Def4.getText();
+        if (text.equals("Enemy Def")) {
+            Def4.setText("");
+        }
+    }//GEN-LAST:event_Def4MouseClicked
+
+    private void d20_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_d20_5MouseClicked
+        String text = d20_5.getText();
+        if (text.equals("d20")) {
+            d20_5.setText("");
+        }
+    }//GEN-LAST:event_d20_5MouseClicked
+
+    private void Atk4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Atk4MouseClicked
+        String text = Atk4.getText();
+        if (text.equals("Unit Atk")) {
+            Atk4.setText("");
+        }
+    }//GEN-LAST:event_Atk4MouseClicked
+
+    private void Calc4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Calc4ActionPerformed
+        int ret[] = roll_Atk(Atk4, d20_4, Def4);
+        int damage = ret[0];
+        int d20 = ret[1];
+        
+        if (damage != -1) {
+            Result4.setText(String.valueOf(damage));
+        } else {
+            Result4.setText("Error");
+        }
+        
+        if (d20_check.isSelected()) {
+            d20_4.setText(String.valueOf(d20));
+        }
+    }//GEN-LAST:event_Calc4ActionPerformed
+
+    private void Def5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Def5MouseClicked
+        String text = Def5.getText();
+        if (text.equals("Enemy Def")) {
+            Def5.setText("");
+        }
+    }//GEN-LAST:event_Def5MouseClicked
+
+    private void d20_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_d20_6MouseClicked
+        String text = d20_6.getText();
+        if (text.equals("d20")) {
+            d20_6.setText("");
+        }
+    }//GEN-LAST:event_d20_6MouseClicked
+
+    private void Atk5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Atk5MouseClicked
+        String text = Atk5.getText();
+        if (text.equals("Unit Atk")) {
+            Atk5.setText("");
+        }
+    }//GEN-LAST:event_Atk5MouseClicked
+
+    private void Calc5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Calc5ActionPerformed
+        int ret[] = roll_Atk(Atk5, d20_5, Def5);
+        int damage = ret[0];
+        int d20 = ret[1];
+        
+        if (damage != -1) {
+            Result5.setText(String.valueOf(damage));
+        } else {
+            Result5.setText("Error");
+        }
+        
+        if (d20_check.isSelected()) {
+            d20_5.setText(String.valueOf(d20));
+        }
+    }//GEN-LAST:event_Calc5ActionPerformed
+
+    private void d20_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_d20_7MouseClicked
+        String text = d20_7.getText();
+        if (text.equals("d20")) {
+            d20_7.setText("");
+        }
+    }//GEN-LAST:event_d20_7MouseClicked
+
+    private void Atk2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Atk2MouseClicked
+        String text = Atk2.getText();
+        if (text.equals("Unit Atk")) {
+            Atk2.setText("");
+        }
+    }//GEN-LAST:event_Atk2MouseClicked
+
+    private void Calc7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Calc7ActionPerformed
+        int ret[] = roll_Atk(Mag7, d20_7, Spr7);
+        int damage = ret[0];
+        int d20 = ret[1];
+        
+        if (damage != -1) {
+            Result7.setText(String.valueOf(damage));
+        } else {
+            Result7.setText("Error");
+        }
+        
+        if (d20_check.isSelected()) {
+            d20_7.setText(String.valueOf(d20));
+        }
+    }//GEN-LAST:event_Calc7ActionPerformed
+
+    private void Spr7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Spr7MouseClicked
+        String text = Spr7.getText();
+        if (text.equals("Enemy Spr")) {
+            Spr7.setText("");
+        }
+    }//GEN-LAST:event_Spr7MouseClicked
+
+    private void d20_9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_d20_9MouseClicked
+        String text = d20_9.getText();
+        if (text.equals("d20")) {
+            d20_9.setText("");
+        }
+    }//GEN-LAST:event_d20_9MouseClicked
+
+    private void Mag7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Mag7MouseClicked
+        String text = Mag7.getText();
+        if (text.equals("Unit Mag")) {
+            Mag7.setText("");
+        }
+    }//GEN-LAST:event_Mag7MouseClicked
+
+    private void Calc8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Calc8ActionPerformed
+        int ret[] = roll_Atk(Mag8, d20_8, Spr8);
+        int damage = ret[0];
+        int d20 = ret[1];
+        
+        if (damage != -1) {
+            Result8.setText(String.valueOf(damage));
+        } else {
+            Result8.setText("Error");
+        }
+        
+        if (d20_check.isSelected()) {
+            d20_8.setText(String.valueOf(d20));
+        }
+    }//GEN-LAST:event_Calc8ActionPerformed
+
+    private void Spr8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Spr8MouseClicked
+        String text = Spr8.getText();
+        if (text.equals("Enemy Spr")) {
+            Spr8.setText("");
+        }
+    }//GEN-LAST:event_Spr8MouseClicked
+
+    private void d20_10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_d20_10MouseClicked
+        String text = d20_10.getText();
+        if (text.equals("d20")) {
+            d20_10.setText("");
+        }
+    }//GEN-LAST:event_d20_10MouseClicked
+
+    private void Mag8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Mag8MouseClicked
+        String text = Mag8.getText();
+        if (text.equals("Unit Mag")) {
+            Mag8.setText("");
+        }
+    }//GEN-LAST:event_Mag8MouseClicked
+
+    private void Calc9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Calc9ActionPerformed
+        int ret[] = roll_Atk(Mag9, d20_9, Spr9);
+        int damage = ret[0];
+        int d20 = ret[1];
+        
+        if (damage != -1) {
+            Result9.setText(String.valueOf(damage));
+        } else {
+            Result9.setText("Error");
+        }
+        
+        if (d20_check.isSelected()) {
+            d20_9.setText(String.valueOf(d20));
+        }
+    }//GEN-LAST:event_Calc9ActionPerformed
+
+    private void Spr9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Spr9MouseClicked
+        String text = Spr9.getText();
+        if (text.equals("Enemy Spr")) {
+            Spr9.setText("");
+        }
+    }//GEN-LAST:event_Spr9MouseClicked
+
+    private void d20_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_d20_3MouseClicked
+        String text = d20_3.getText();
+        if (text.equals("d20")) {
+            d20_3.setText("");
+        }
+    }//GEN-LAST:event_d20_3MouseClicked
+
+    private void Mag9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Mag9MouseClicked
+        String text = Mag9.getText();
+        if (text.equals("Unit Mag")) {
+            Mag9.setText("");
+        }
+    }//GEN-LAST:event_Mag9MouseClicked
+
+    private void Calc10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Calc10ActionPerformed
+        int ret[] = roll_Atk(Mag10, d20_10, Spr10);
+        int damage = ret[0];
+        int d20 = ret[1];
+        
+        if (damage != -1) {
+            Result10.setText(String.valueOf(damage));
+        } else {
+            Result10.setText("Error");
+        }
+        
+        if (d20_check.isSelected()) {
+            d20_10.setText(String.valueOf(d20));
+        }
+    }//GEN-LAST:event_Calc10ActionPerformed
+
+    private void Spr10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Spr10MouseClicked
+        String text = Spr10.getText();
+        if (text.equals("Enemy Spr")) {
+            Spr10.setText("");
+        }
+    }//GEN-LAST:event_Spr10MouseClicked
+
+    private void d20_8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_d20_8MouseClicked
+        String text = d20_8.getText();
+        if (text.equals("d20")) {
+            d20_8.setText("");
+        }
+    }//GEN-LAST:event_d20_8MouseClicked
+
+    private void Mag10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Mag10MouseClicked
+        String text = Mag10.getText();
+        if (text.equals("Unit Mag")) {
+            Mag10.setText("");
+        }
+    }//GEN-LAST:event_Mag10MouseClicked
+
+    private void Def2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Def2MouseClicked
+        String text = Def2.getText();
+        if (text.equals("Enemy Def")) {
+            Def2.setText("");
+        }
+    }//GEN-LAST:event_Def2MouseClicked
 
     /**
      * @param args the command line arguments
@@ -343,19 +1137,67 @@ public class FFBG_Calculator extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField Atk1;
+    private javax.swing.JTextField Atk2;
+    private javax.swing.JTextField Atk3;
+    private javax.swing.JTextField Atk4;
+    private javax.swing.JTextField Atk5;
     private javax.swing.JLabel AtkStat_col;
     private javax.swing.JLabel AttackDmg;
+    private javax.swing.JLabel AttackDmg2;
+    private javax.swing.JLabel AttackDmg3;
+    private javax.swing.JLabel AttackDmg4;
+    private javax.swing.JLabel AttackDmg5;
     private javax.swing.JButton Calc1;
+    private javax.swing.JButton Calc10;
     private javax.swing.JButton Calc2;
+    private javax.swing.JButton Calc3;
+    private javax.swing.JButton Calc4;
+    private javax.swing.JButton Calc5;
+    private javax.swing.JButton Calc6;
+    private javax.swing.JButton Calc7;
+    private javax.swing.JButton Calc8;
+    private javax.swing.JButton Calc9;
     private javax.swing.JTextField Def1;
+    private javax.swing.JTextField Def2;
+    private javax.swing.JTextField Def3;
+    private javax.swing.JTextField Def4;
+    private javax.swing.JTextField Def5;
     private javax.swing.JLabel DefStat_col;
-    private javax.swing.JTextField Mag2;
+    private javax.swing.JTextField Mag10;
+    private javax.swing.JTextField Mag6;
+    private javax.swing.JTextField Mag7;
+    private javax.swing.JTextField Mag8;
+    private javax.swing.JTextField Mag9;
     private javax.swing.JLabel MagicDmg;
+    private javax.swing.JLabel MagicDmg1;
+    private javax.swing.JLabel MagicDmg2;
+    private javax.swing.JLabel MagicDmg3;
+    private javax.swing.JLabel MagicDmg4;
     private javax.swing.JLabel Result1;
+    private javax.swing.JLabel Result10;
     private javax.swing.JLabel Result2;
-    private javax.swing.JTextField Spr2;
+    private javax.swing.JLabel Result3;
+    private javax.swing.JLabel Result4;
+    private javax.swing.JLabel Result5;
+    private javax.swing.JLabel Result6;
+    private javax.swing.JLabel Result7;
+    private javax.swing.JLabel Result8;
+    private javax.swing.JLabel Result9;
+    private javax.swing.JTextField Spr10;
+    private javax.swing.JTextField Spr6;
+    private javax.swing.JTextField Spr7;
+    private javax.swing.JTextField Spr8;
+    private javax.swing.JTextField Spr9;
     private javax.swing.JTextField d20_1;
+    private javax.swing.JTextField d20_10;
     private javax.swing.JTextField d20_2;
+    private javax.swing.JTextField d20_3;
+    private javax.swing.JTextField d20_4;
+    private javax.swing.JTextField d20_5;
+    private javax.swing.JTextField d20_6;
+    private javax.swing.JTextField d20_7;
+    private javax.swing.JTextField d20_8;
+    private javax.swing.JTextField d20_9;
     private javax.swing.JCheckBox d20_check;
     // End of variables declaration//GEN-END:variables
 }
